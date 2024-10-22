@@ -8,10 +8,10 @@ const Navbar = () => {
         <div className="container flex justify-between items-center">
             {/* logo section */}
             <div>
-                <p className='text-lg font-semibold'>FOOD <span className='text-red-500'>EAT</span></p>
+                <p className='text-3xl font-semibold'>FOOD <span className='text-red-500'>EAT</span></p>
             </div>
             {/* menu section */}
-            <div className=' flex justify-center items-center gap-6'>
+            <div className=' flex justify-center items-center gap-10'>
                 <ul className='hidden sm:flex  gap-8'>
                     <li className=' hover:border-b-2 border-primary uppercase'>Home</li>
                     <li className='hover:border-b-2 border-primary uppercase'>Menu</li>

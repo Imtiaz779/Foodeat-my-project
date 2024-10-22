@@ -23,6 +23,19 @@ export default {
           "2xl":"6rem",
         },
       },
+      animation: {
+        "spin-slow" : "spin 70s linear infinite",
+      },
+      keyframes: {
+        spin:{
+          from:{
+            transform: "rotate(0deg)",
+          },
+          to: {
+            transform: "rotate(360deg)",
+          },
+        },
+      },
     },
   },
   plugins: [],
